@@ -26,7 +26,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
 	
 		<!-- 1 页头-->
 		<div class="row">

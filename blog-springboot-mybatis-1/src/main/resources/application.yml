@@ -9,6 +9,9 @@ mybatis:
   configLocation: classpath:/mybatis-config.xml
 
 spring:
+  #热部署配置
+  devtools:    restart:      enabled: true
+      additional-paths:      - src/main/java
 #解决中文乱码问题
   http:    encoding:
       force: true      charset: UTF-8      
